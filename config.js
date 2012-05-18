@@ -7,6 +7,7 @@ module.exports = {
 		]
 	},
 	plugins: [
-		require("./lib/plugins/sample_plugin")
+		require("./lib/plugins/sample_plugin"),
+		require("./lib/plugins/sample_plugin2")
 	]
 }
