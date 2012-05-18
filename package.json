@@ -1,26 +1,29 @@
 {
-	"name" : "manalith-bot",
-	"description" : "ManalithBotJS is an open source IRC bot based on the node-irc",
-	"version" : "0.0.1",
-	"author" : {
-		"name" : "Setzer Kim",
-		"email" : "mmx900@gmail.com"
+	"name": "manalith-bot",
+	"description": "ManalithBotJS is an open source IRC bot based on the node-irc",
+	"version": "0.0.1",
+	"author": {
+		"name": "Setzer Kim",
+		"email": "mmx900@gmail.com"
 	},
-	"contributors" : [],
-	"repository" : {
-		"type" : "git",
-		"url" : "git@github.com:mmx900/ManalithBotJS.git"
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:mmx900/ManalithBotJS.git"
 	},
-	"bugs" : {
-		"url" : "https://github.com/mmx900/ManalithBotJS/issues"
+	"bugs": {
+		"url": "https://github.com/mmx900/ManalithBotJS/issues"
 	},
-	"main" : "bot",
-	"licenses" : [
+	"main": "bot",
+	"licenses": [
 		{
-			"type" : "GPL"
+			"type": "GPL"
 		}
 	],
 	"dependencies": {
 		"irc": "0.3.4"
+	},
+	"scripts" : {
+		"start" : "node bot.js"
 	}
 }
